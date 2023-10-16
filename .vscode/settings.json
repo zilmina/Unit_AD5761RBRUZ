@@ -1,0 +1,11 @@
+{
+	"sshfs.configs": [
+		{
+			"name": "TestPi",
+			"host": "rapsberrypi.local",
+			"username": "pi",
+			"password": "4423pi",
+			"newFileMode": "0o764"
+		}
+	]
+}

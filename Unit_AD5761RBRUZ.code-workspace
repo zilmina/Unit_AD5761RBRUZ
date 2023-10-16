@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "SSH FS - testpi",
+			"uri": "ssh://testpi/"
+		}
+	],
+	"settings": {
+		"sshfs.configs": [
+			{
+				"name": "testpi",
+				"host": "raspberrypi.local",
+				"username": "pi",
+				"password": true,
+				"newFileMode": "0o764",
+				"port": 22
+			}
+		]
+	}
+}
